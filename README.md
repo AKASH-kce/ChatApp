@@ -30,7 +30,7 @@ The application is live at: [ChatApp on Render](https://chatapp-wufz.onrender.co
 1. **Clone the repository**:
 
     ```sh
-    git clone https://github.com/your-username/chatapp.git
+    git clone https://github.com/AKASH-kce/chatapp.git
     cd chatapp
     ```
 
