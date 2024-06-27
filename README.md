@@ -1,37 +1,74 @@
-# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
+# MERN Stack Project: Build and Deploy a Real Time Chat App 
 
-![Demo App](https://i.ibb.co/fXmZdnz/Screenshot-10.png)
+# ChatApp
 
-[Video Tutorial on Youtube](https://youtu.be/HwCqsOis894)
+A full-stack chat application built using the MERN stack (MongoDB, Express, React, Node.js). The application supports user authentication, real-time messaging, and user profile management.
 
-Some Features:
+## Hosted Application
 
--   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
--   🎃 Authentication && Authorization with JWT
--   👾 Real-time messaging with Socket.io
--   🚀 Online user status (Socket.io and React Context)
--   👌 Global state management with Zustand
--   🐞 Error handling both on the server and on the client
--   ⭐ At the end Deployment like a pro for FREE!
--   ⏳ And much more!
+The application is live at: [ChatApp on Render](https://chatapp-wufz.onrender.com)
 
-### Setup .env file
+## Features
 
-```js
-PORT=...
-MONGO_DB_URI=...
-JWT_SECRET=...
-NODE_ENV=...
-```
+- User authentication
+- Real-time messaging
+- User profile management
+- Responsive UI
 
-### Build the app
+## Tech Stack
 
-```shell
-npm run build
-```
+- **Frontend**: React, Vite
+- **Backend**: Express, Node.js
+- **Database**: MongoDB
+- **Real-time Communication**: Socket.io
+- **Hosting**: Render
 
-### Start the app
+## Setup Instructions
 
-```shell
-npm start
-```
+### Installation
+
+1. **Clone the repository**:
+
+    ```sh
+    git clone https://github.com/your-username/chatapp.git
+    cd chatapp
+    ```
+
+2. **Install dependencies for both backend and frontend**:
+
+    ```sh
+    npm install
+    npm install --prefix frontend
+    ```
+
+### Building the Frontend
+
+1. **Navigate to the frontend directory**:
+
+    ```sh
+    cd frontend
+    ```
+
+2. **Run the build command**:
+
+    ```sh
+    npm run build
+    ```
+
+3. **Return to the root directory**:
+
+    ```sh
+    cd ..
+    ```
+
+### Running the Application Locally
+
+1. **Start the backend server**:
+
+    ```sh
+    npm start
+    ```
+
+    Your application should be running at `http://localhost:3000`.
+
+
